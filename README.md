@@ -1,1 +1,1 @@
-# pkg_fbcomments
+# Facebook Comments Package
