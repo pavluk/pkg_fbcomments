@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="package" method="upgrade">
+	<name>PKG_FBCOMMENTS</name>
+	<packagename>fbcomments</packagename>
+	<author>Artem Pavluk</author>
+	<creationDate>November 2018</creationDate>
+	<copyright>© copyright 2010 - 2018 Private master Pavluk</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@art-pavluk.com</authorEmail>
+	<authorUrl>https://art-pavluk.com</authorUrl>
+	<version>0.5.0</version>
+	<description>PKG_FBCOMMENTS_DESCRIPTION</description>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.pkg_fbcomments.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.pkg_fbcomments.sys.ini</language>
+	</languages>
+	<files>
+		<folder type="plugin" id="fbcomments" group="system">plg_system_fbcomments</folder>
+	</files>
+</extension>
