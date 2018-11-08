@@ -18,7 +18,8 @@ class plgSystemFbComments extends CMSPlugin
 {
 	/**
 	 * Replace shortcodes from body
-	 * v
+	 *
+	 * {fbcomments_form}
 	 *
 	 * @return  void
 	 *
