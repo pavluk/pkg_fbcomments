@@ -10,8 +10,8 @@
 
 defined('_JEXEC') or die;
 
-use Joomla\CMS\Plugin\CMSPlugin;
 use Joomla\CMS\Factory;
+use Joomla\CMS\Plugin\CMSPlugin;
 use Joomla\CMS\Uri\Uri;
 
 class plgSystemFbComments extends CMSPlugin
@@ -23,7 +23,7 @@ class plgSystemFbComments extends CMSPlugin
 	 *
 	 * @return  void
 	 *
-	 * @since   0.5.0
+	 * @since 0.5.0
 	 */
 	public function onAfterRender()
 	{
