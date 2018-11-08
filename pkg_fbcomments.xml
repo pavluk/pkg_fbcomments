@@ -16,5 +16,6 @@
 	</languages>
 	<files>
 		<folder type="plugin" id="fbcomments" group="system">plg_system_fbcomments</folder>
+		<folder type="plugin" id="fbcomments" group="editors-xtd">plg_editors-xtd_fbcomments</folder>
 	</files>
 </extension>
