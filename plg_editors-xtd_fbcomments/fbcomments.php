@@ -36,7 +36,7 @@ class PlgButtonFbComments extends CMSPlugin
 	 */
 	public function onDisplay($name)
 	{
-		HTMLHelper::_('script', 'media/plg_editors-xtd_fbcomments/js/fbcomments.js', array('version' => 'auto'));
+		HTMLHelper::_('script', 'media/plg_editors-xtd_fbcomments/js/fbcomments.min.js', array('version' => 'auto'));
 
 		// Pass some data to javascript
 		Factory::getDocument()->addScriptOptions(
