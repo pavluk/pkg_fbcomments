@@ -26,8 +26,7 @@ class plgSystemFbComments extends CMSPlugin
 	 */
 	public function onAfterRender()
 	{
-		$app = Factory::getApplication();
-		if ($app->isSite())
+		if (Factory::getApplication()->isSite())
 		{
 			$language    = str_replace('-', '_', Factory::getLanguage()->getTag());
 			$app_id      = $this->params->get('app_id', '');
@@ -39,7 +38,7 @@ class plgSystemFbComments extends CMSPlugin
 		  js.src = 'https://connect.facebook.net/$language/sdk.js#xfbml=1&version=v3.2&appId=$app_id';
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
-        </script>
+        </script> 
 FACEBOOK;
 			$html        = '<div id="fb-root"></div>';
 			$html        .= '<div class="fb-comments" data-width="100%" data-href="' . Uri::getInstance()->toString() . '"></div>';
